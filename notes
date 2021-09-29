@@ -1,0 +1,5 @@
+// run migration for a specific db
+python manage.py migrate --database=users_db
+
+// create superuser
+python manage.py createsuper --database=users_db
